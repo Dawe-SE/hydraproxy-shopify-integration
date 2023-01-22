@@ -4,7 +4,7 @@ from smtplib import SMTP
 from email.mime.text import MIMEText
 
 
-headers = {'Accept': 'application/json', 'Authorization': 'Token 5c8f832100a05b00076ecd6338f94a1fefc5876a'}
+headers = {'Accept': 'application/json', 'Authorization': 'Put your token here'}
 logging.basicConfig(filename='completor.log', level=logging.INFO)
 now = datetime.datetime.now()
 
